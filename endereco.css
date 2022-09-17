@@ -1,0 +1,12 @@
+.endereco{
+    font-size: 1.2rem;
+    padding: 3% 10%;
+}
+.endereco h1{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.endereco img{
+    width: 80%;
+    height: 100%;
+}

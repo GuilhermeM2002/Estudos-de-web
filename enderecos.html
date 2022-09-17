@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="reserva.css">
+    <link rel="stylesheet" href="endereco.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Reserva</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="Index.html">Restaurante</a>
+        </h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="cardapio.html">Cardápio</a>
+                </li>
+                <li>
+                    <a href="reserva.html">Reserva</a>
+                </li>
+                <li>
+                    <a href="enderecos.html">Endereços</a>
+                </li>
+            </ul>
+            <div id="nav" class="overlay">
+                <a href="javascript:void(0)" class="button-close" onclick="closeNav()">&times;</a>
+                <div class="content-overlay">
+                    <a href="#">Cardápio</a>
+                    <a href="#">Reserva</a>
+                    <a href="#">Endereços</a>
+                </div>
+            </div>
+            <button class="nav-button" onclick="openNav()">
+                <i class="fa fa-bars fa-2x"></i>
+            </button>                                   
+        </nav>
+    </header>
+    <main>
+        <div class="endereco">
+            <h1>Restaurante</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis accusantium laborum quae dolores, numquam ipsa distinctio voluptatem
+            eligendi nemo! Dolor et sed maxime ratione iure quaerat voluptates. Dignissimos, voluptas totam?</p>
+            <img src="image/endereco1.png" alt="">
+        </div>
+        <div class="endereco">
+            <h1>Confeitaria</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis accusantium laborum quae dolores, numquam ipsa distinctio voluptatem
+            eligendi nemo! Dolor et sed maxime ratione iure quaerat voluptates. Dignissimos, voluptas totam?</p>
+            <img src="image/endereco2.png" alt="">
+        </div>
+        <div class="endereco">
+            <h1>Hamburgueria</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis accusantium laborum quae dolores, numquam ipsa distinctio voluptatem
+            eligendi nemo! Dolor et sed maxime ratione iure quaerat voluptates. Dignissimos, voluptas totam?</p>
+            <img src="image/endereco3.png" alt="">
+        </div>
+    </main>
+    <footer>
+        <div>
+            <div>
+                <h2 class="title-footer">Contato.</h2>
+                <p>+xx (xx) xxxx-xxx</p>
+                <p>+xx (xx) xxxx-xxx</p>
+            </div>
+            <div>
+                <h2 class="title-footer">Enderaço.</h2>
+                <p>R. Monsenhor Furtado, 55 - Centro, Guaraciaba do Norte - CE, 62380-000</p>
+            </div>
+            <div>
+                <h2 class="title-footer">Horários de funcionamento.</h2>
+                <p>Das 12:00 as 23:00 de segunda a sexta.</p>
+                <p>Das 10:00 as 03:00 os sábados e domingos.</p>
+                <p>Horários de Brasília</p>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="title-footer">Redes Sociais.</h2>
+            <img class="social" src="image/instagram.png" alt="instagram">
+            <img class="social" src="image/whatsapp.png" alt="whatsapp">
+            <img class="social" src="image/tiktok.png" alt="tiktok">
+        </div>
+    </footer>
+    <script src="Action.js"></script>
+</body>
+</html>

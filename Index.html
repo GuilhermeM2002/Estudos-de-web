@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Restaurante</title>
+</head>
+<body>
+    <header id="header">
+        <h1>
+            <a href="Index.html">Restaurante</a>
+        </h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="cardapio.html">Cardápio</a>
+                </li>
+                <li>
+                    <a href="reserva.html">Reserva</a>
+                </li>
+                <li>
+                    <a href="enderecos.html">Endereços</a>
+                </li>
+            </ul>
+            <div id="nav" class="overlay">
+                <a href="javascript:void(0)" class="button-close" onclick="closeNav()">&times;</a>
+                <div class="content-overlay">
+                    <a href="cardapio.html">Cardápio</a>
+                    <a href="reserva.html">Reserva</a>
+                    <a href="enderecos.html">Endereços</a>
+                </div>
+            </div>
+            <button class="nav-button" onclick="openNav()">
+                <i class="fa fa-bars fa-2x"></i>
+            </button>                                   
+        </nav>
+    </header>
+
+    <div class="img-banner">
+        <div class="title-animation">
+            <p>Lorem, ipsum dolor sit amet.</p>
+        </div>
+        <img src="image/restaurante.jpg" alt="">
+    </div>
+    
+    <main>
+        <section class="services">
+           <h2 class="title">Nossos serviços</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Earum dolorum, ad quis explicabo exercitationem ducimus fuga praesentium dolorem inventore!
+                Fuga, provident porro praesentium quaerat fugiat dignissimos. Numquam doloribus beatae sapiente?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dicta perferendis expedita culpa harum veritatis quae est, temporibus error odio animi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ea repellat quibusdam blanditiis. Laudantium, beatae nostrum.
+            </p>
+        </section>
+
+        <div class="more-orders">
+            <div id="order1">
+                <div class="img-lateral-pizza">
+                    <img class="img-pizza" src="image/img-lateral-pizza.jpg" alt="">
+                </div>
+
+                <article class="content-order">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consequuntur eos labore voluptatum rerum? Ipsam, deserunt. Animi, deleniti distinctio et architecto 
+                        laudantium sint nobis, sunt, amet dolores voluptate.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consequuntur eos labore voluptatum rerum? Ipsam, deserunt. Animi, deleniti distinctio et architecto 
+                        laudantium sint nobis, sunt, amet dolores voluptates iste quisquam tempora.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consequuntur eos labore voluptatum rerum? distinctio et architecto 
+                        laudantium sint nobis, sunt, amet dolores voluptates iste quisquam tempora.
+                    </p>
+                </article>
+                <div>
+                    <img class="button-pizza" onclick="next()" src="image/botao.png" alt="">
+                </div>
+            </div>
+
+            <div id="order2">
+                <div class="img-lateral-pizza2">
+                    <img class="img-pizza" src="image/img-lateral-pizza2.jpg" alt="Imagem pizza">
+                </div>
+
+                <article class="content-order">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, in odit? Earum nostrum non soluta vel qui sed dolor temporibus,
+                        exercitationem minus doloribus natus nisi hic enim fugiat, repudiandae nam!
+                    </p>
+                    <p>
+                        Em nosso aniversário de 20 anos Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consequuntur eos labore voluptatum rerum? Ipsam, deserunt. Animi, deleniti distinctio et architecto 
+                        laudantium sint nobis, sunt, amet dolores voluptates iste quisquam tempora.
+                        Em nosso aniversário de 20 anos Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consequuntur eos labore voluptatum rerum? Ipsam, deserunt. Animi, deleniti distinctio et architecto 
+                        laudantium sint nobis, sunt, amet dolores voluptates iste quisquam tempora.
+                    </p>
+                </article>
+                <div>
+                    <img class="button-pizza" onclick="desappear()" src="image/botao.png" alt="">
+                </div>
+            </div>
+            
+            <div id="order3">
+                <div class="img-lateral-pizza3">
+                    <img class="img-pizza" src="image/imagem-lateral-pizza3.jpeg" alt="Imagem pizza">
+                </div>
+    
+                <article class="content-order">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, in odit? Earum nostrum non soluta vel qui sed dolor temporibus,
+                        exercitationem minus doloribus natus nisi hic enim fugiat, repudiandae nam!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Nihil, fugiat nostrum cumque asperiores blanditiis neque non, iste sed itaque ad impedit ullam repellendus nam dicta! Deleniti reiciendis dolor eum ipsum!
+                        Em nosso aniversário de 20 anos Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consequuntur eos labore voluptatum rerum? Ipsam, deserunt. Animi, deleniti distinctio et architecto 
+                        laudantium sint nobis, sunt, amet dolores voluptates iste quisquam tempora.
+                    </p>
+                </article>
+                <div>
+                    <img class="button-pizza" onclick="previus()" src="image/botao.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <section class="celebration">
+            <div class="content-celebration">
+                <h2 class="title">Celebre em nossa companhia.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deleniti sapiente natus maxime illo magnam sunt
+                perferendis nostrum, alias ut quos animi rem, facilis distinctio unde, molestias vitae eum veniam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis voluptas veniam atque quidem iusto repellendus
+                vero provident similique ut sequi obcaecati quia, adipisci doloremque. Id natus ipsam delectus eaque.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit neque, mollitia culpa
+                deserunt numquam praesentium dicta eum facere suscipit! Corrupti eveniet vero aliquam pariatur quidem molestias libero quod natus error!</p>
+            </div>
+        </section>
+
+        <div class="img-celebration">
+            <img class="cupcake" src="image/cupcake.jpg" alt="cupcake">
+        </div>
+
+        <section class="event">
+            <h2 class="title">Realize seu evento conosco</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores sint corporis, harum minus non saepe provident, ipsam blanditiis veritatis voluptatem voluptate?
+                Dolores tempora aspernatur ex eveniet eaque repellat corrupti sed.
+            </p>
+
+            <div>
+                <button class="button" id="buttonOpemModal">Contato</button>
+            </div>
+
+            <div id="my-modal" class="modal">
+                <div class="content-modal">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dignissimos ipsam omnis recusandae consequuntur. Laborum maiores vel, id, aspernatur itaque, at quaerat cupiditate distinctio illum ipsa commodi consectetur obcaecati et?</p>
+                    <p>+xx (xx) xxxx-xxx</p>
+                    <p>+xx (xx) xxxx-xxx</p>
+                    <button class="button" id="close">Fechar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="brother">
+            <div>
+                <h2 class="title">Conheça nossos irmãos</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error architecto dignissimos ducimus blanditiis repudiandae impedit minus,
+                    natus maxime ab, optio facere hic consequatur, quidem eos animi delectus minima eveniet ipsum.
+                </p>
+            </div>
+
+            <div class="cake">
+                <div>
+                    <img class="img-brother" src="image/bolo.jpeg" alt="">
+                </div>
+                <div class="content-cake">
+                    <h3>Confeitaria</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis sit ipsa nulla, incidunt esse id doloribus, quae
+                        ipsum expedita mollitia facilis autem aspernatur. Corporis cum libero voluptatem nisi maiores tempore.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eaque omnis voluptatibus accusantium atque accusamus officia cum rerum nulla
+                        deserunt similique natus necessitatibus placeat, ipsam suscipit optio est. Ex, eligendi.
+                    </p>
+                </div>
+            </div>
+
+            <div class="hamburguer">
+                <div>
+                    <img class="img-brother" src="image/hamburguer.jpeg" alt="">
+                </div>
+                <div class="content-hamburguer">
+                    <h3>Hamburgueria</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique minima fuga nobis, ut maxime omnis deserunt
+                        cum sit ea. Culpa quas iure dolorum nesciunt ea voluptatum molestiae ipsam? Beatae, recusandae!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odio iste perferendis necessitatibus soluta ipsa fuga officiis. Saepe voluptate
+                        qui harum quibusdam, reiciendis, adipisci recusandae unde, dignissimos nulla minima tempore.
+                    </p> 
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <div>
+                <h2 class="title-footer">Contato.</h2>
+                <p>+xx (xx) xxxx-xxx</p>
+                <p>+xx (xx) xxxx-xxx</p>
+            </div>
+            <div>
+                <h2 class="title-footer">Enderaço.</h2>
+                <p>R. Monsenhor Furtado, 55 - Centro, Guaraciaba do Norte - CE, 62380-000</p>
+            </div>
+            <div>
+                <h2 class="title-footer">Horários de funcionamento.</h2>
+                <p>Das 12:00 as 23:00 de segunda a sexta.</p>
+                <p>Das 10:00 as 03:00 os sábados e domingos.</p>
+                <p>Horários de Brasília</p>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="title-footer">Redes Sociais.</h2>
+            <img class="social" src="image/instagram.png" alt="instagram">
+            <img class="social" src="image/whatsapp.png" alt="whatsapp">
+            <img class="social" src="image/tiktok.png" alt="tiktok">
+        </div>
+    </footer>
+    <script src="Action.js"></script>
+</body>
+</html>

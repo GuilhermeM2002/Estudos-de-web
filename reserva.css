@@ -1,0 +1,35 @@
+header{
+    background-color: #424242;
+}
+.reservation-header{
+    padding: 3% 9%;
+    font-size: 1.1rem;
+}
+.reservation-header h1{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 15px;
+}
+main, form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.form input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.submit{
+    background-color: #424242;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-bottom: 8%;
+}

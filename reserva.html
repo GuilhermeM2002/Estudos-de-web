@@ -15,7 +15,7 @@
 <body>
     <header>
         <h1>
-            <a href="Index.html">Restaurante</a>
+            <a href="Index.html">Pizzaria</a>
         </h1>
 
         <nav>
@@ -33,9 +33,9 @@
             <div id="nav" class="overlay">
                 <a href="javascript:void(0)" class="button-close" onclick="closeNav()">&times;</a>
                 <div class="content-overlay">
-                    <a href="#">Cardápio</a>
-                    <a href="#">Reserva</a>
-                    <a href="#">Endereços</a>
+                    <a href="cardapio.html">Cardápio</a>
+                    <a href="reserva.html">Reserva</a>
+                    <a href="enderecos.html">Endereços</a>
                 </div>
             </div>
             <button class="nav-button" onclick="openNav()">
@@ -46,12 +46,17 @@
     <main>
         <div class="reservation-header">
             <h1>Reserva</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nulla sit, veniam quisquam temporibus distinctio natus veritatis
-             omnis molestias, alias, dolorum ipsa earum blanditiis porro. Sed doloremque beatae ab consequuntur.
+            <p>
+                Todas as reservas devem ser feitas com pelo menos uma hora de antecedência, para evitar inconveniências na hora de alocar as mesas.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odit quia nostrum architecto libero eius ex, maxime exercitationem provident
-                iste nemo consequuntur vero laboriosam quidem magnam accusantium error quisquam necessitatibus!
+                Cada mesa comporta apenas a quantidade de pessoas informadas na reserva.
+            </p>
+            <p>
+                As reservas tem pelo menos duas horas de aceitação para atrazos. Se esse prazo for excedido serão automaticamente canceladas.
+            </p>
+            <p>
+                Nossas regras servem para organizar o ambiente de trabalho e evitar confusões. Agradecemos desde já a compreenção!
             </p>
         </div>
         <div>
@@ -67,7 +72,7 @@
                 <label>Data</label>
                 <input type="date" required>
 
-                <button class="submit" onclick="feedback()">Enviar</button>
+                <button class="submit">Enviar</button>
             </form>
         </div>
         <div id="result">

@@ -55,11 +55,6 @@ function myrolar() {
 function openNav(){
     document.querySelector('#nav').style.width = "100%"
 }
-
 function closeNav(){
     document.querySelector('#nav').style.width = "0"
-}
-function feedback(){
-    window.alert("Enviado com sucesso!")
-    
 }
